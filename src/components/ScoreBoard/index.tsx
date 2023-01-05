@@ -4,7 +4,7 @@ import {
   ScoreBoardContainer,
   ScoreBoardHeader,
   ScoresContainer,
-  StyledScoreContainer,
+  ScoreContainer,
   StyledButton,
   ScoreTextPlayer,
   ScoreTextNumber,
@@ -30,14 +30,14 @@ const ScoreBoard = (props: scoreBoardProps) => {
       <ScoreBoardContainer>
         <ScoreBoardHeader>Score Board</ScoreBoardHeader>
         <ScoresContainer>
-          <StyledScoreContainer>
+          <ScoreContainer>
             <ScoreTextPlayer>Player</ScoreTextPlayer>
             <ScoreTextNumber>{playerScore}</ScoreTextNumber>
-          </StyledScoreContainer>
-          <StyledScoreContainer>
+          </ScoreContainer>
+          <ScoreContainer>
             <ScoreTextPlayer>CPU</ScoreTextPlayer>
             <ScoreTextNumber>{cPUScore}</ScoreTextNumber>
-          </StyledScoreContainer>
+          </ScoreContainer>
         </ScoresContainer>
         <StyledButton onPress={handlerPress}>
           <StyledButtonText>Reset Score Board</StyledButtonText>

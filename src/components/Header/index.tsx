@@ -1,8 +1,12 @@
 import React from 'react';
-import {StyledHeader} from './styles';
+import {StyledHeader, StyledText} from './styles';
 
 const Header = () => {
-  return <StyledHeader>Tic Tac Toe</StyledHeader>;
+  return (
+    <StyledHeader>
+      <StyledText>Tic Tac Toe</StyledText>
+    </StyledHeader>
+  );
 };
 
 export default Header;

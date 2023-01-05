@@ -1,11 +1,11 @@
 import CellBoard from '../CellBoard';
 import React from 'react';
-import {StyledView} from './styles';
+import {GameBoardContainer} from './styles';
 import {gameBoardProps} from '../../types';
 
 const GameBoard = (props: gameBoardProps) => {
   return (
-    <StyledView>
+    <GameBoardContainer>
       {props.gameBoardState.map((element: string, index: number) => (
         <CellBoard
           key={index}
@@ -27,7 +27,7 @@ const GameBoard = (props: gameBoardProps) => {
           setScoreBoardState={props.setScoreBoardState}
         />
       ))}
-    </StyledView>
+    </GameBoardContainer>
   );
 };
 

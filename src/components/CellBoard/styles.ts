@@ -20,10 +20,10 @@ const StyledCellBoard = styled.TouchableOpacity<Props>`
 const StyledCellBoardText: AnyStyledComponent = styled.Text`
   width: 100%;
   height: 100%;
-  color: black;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
+  color: black;
 `;
 
 export {StyledCellBoard, StyledCellBoardText};

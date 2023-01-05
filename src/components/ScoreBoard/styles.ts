@@ -4,8 +4,8 @@ const ScoreBoardContainer = styled.View`
   width: 90%;
   flex-direction: column;
   align-items: center;
-  border: 2.5px solid #3d5467;
   background-color: #23967f;
+  border: 2.5px solid #3d5467;
   border-radius: 10px;
 `;
 
@@ -20,11 +20,11 @@ const ScoresContainer = styled.View`
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  font-weight: bold;
   padding: 5px 20px;
+  font-weight: bold;
 `;
 
-const StyledScoreContainer = styled.View`
+const ScoreContainer = styled.View`
   width: 45%;
   flex-direction: row;
   justify-content: space-between;
@@ -44,33 +44,33 @@ const ScoreTextNumber = styled.Text`
   width: 40%;
   background-color: black;
   border: 1px solid #e8eef2;
-  text-align: center;
   font-size: 25px;
   font-weight: bold;
+  text-align: center;
   color: #e8eef2;
 `;
 
 const StyledButton = styled.TouchableOpacity`
   width: 90%;
   background-color: #ce7b91;
-  border: 2.5px solid #3d5467;
   margin: 5px;
   padding: 2.5px;
+  border: 2.5px solid #3d5467;
   border-radius: 10px;
 `;
 
 const StyledButtonText = styled.Text`
   text-align: center;
-  color: white;
   font-size: 20px;
   font-weight: bold;
+  color: white;
 `;
 
 export {
   ScoreBoardContainer,
   ScoreBoardHeader,
   ScoresContainer,
-  StyledScoreContainer,
+  ScoreContainer,
   ScoreTextPlayer,
   ScoreTextNumber,
   StyledButton,

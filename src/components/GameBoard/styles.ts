@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
-const StyledView = styled.View`
+const GameBoardContainer = styled.View`
   width: 80%;
   height: 50%;
   flex-direction: row;
@@ -10,4 +10,4 @@ const StyledView = styled.View`
   margin: 5px;
 `;
 
-export {StyledView};
+export {GameBoardContainer};

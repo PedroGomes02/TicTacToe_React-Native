@@ -25,8 +25,8 @@ const StyledButton = styled.TouchableOpacity`
   width: 30%;
   padding: 10px;
   background-color: #e8eef2;
-  border: 2.5px solid #3d5467;
   margin: 10px;
+  border: 2.5px solid #3d5467;
   border-radius: 10px;
 `;
 
